@@ -4,7 +4,7 @@ public class Motorcycle extends Vehicle {
 	private String make, model;
 	private int year;
 
-	public Car(String manufacturer, String modelVariant, int dateOfReg, boolean isCar, boolean isMotorcycle, boolean isVan)
+	public Motorcycle(String manufacturer, String modelVariant, int dateOfReg, boolean isCar, boolean isMotorcycle, boolean isVan)
 	{
 		super(isCar, isMotorcycle,isVan);
 		make = manufacturer;

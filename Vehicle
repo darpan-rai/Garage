@@ -1,0 +1,18 @@
+public class Vehicle {
+	public boolean isCar;
+	public boolean isMotorcycle;
+	public boolean isVan;
+	public String manufacturer = "";
+
+	private String make, model, regID;
+	private int year;
+
+	public Vehicle(String manufacturer, boolean isCar, boolean isMotorcycle, boolean isVan) {
+		this.isCar = isCar;
+		this.isMotorcycle = isMotorcycle;
+		this.isVan = isVan;
+		this.manufacturer = manufacturer;
+
+	}
+
+}

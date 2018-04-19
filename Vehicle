@@ -40,5 +40,19 @@ public class Vehicle {
 	{
 		return isMotorcycle;
 	}
+	
+	public String toString()
+	{
+		String s ="";
+		if(!this.isVan())
+			s="Van";
+		else if(!this.isCar)
+			s="Car";
+		else
+			s="Motorcycle";
+			
+			
+		return ("ID: "+this.getID()+"\nmanufacturer: "+this.getManufacturer()+"\nVehicle Type: "+s+"\n\n");
+	}
 
 }
